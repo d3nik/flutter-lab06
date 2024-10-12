@@ -36,10 +36,10 @@ class SignInScreen extends StatelessWidget {
                        child: TextFormField(
                          decoration: const InputDecoration(
                              hintText: 'Enter your email',
-                             enabledBorder: const OutlineInputBorder(
-                               borderSide: const BorderSide(color: Colors.grey, width: 0.0),
+                             enabledBorder: OutlineInputBorder(
+                               borderSide: BorderSide(color: Colors.grey, width: 0.0),
                              ),
-                             border: const OutlineInputBorder()
+                             border: OutlineInputBorder()
                          ),
                        ),
                      ),

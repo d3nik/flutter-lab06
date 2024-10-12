@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'sign_in_screen.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
@@ -44,10 +43,10 @@ class SignupScreen extends StatelessWidget {
                               child: TextFormField(
                                 decoration: const InputDecoration(
                                     hintText: 'Enter your name',
-                                    enabledBorder: const OutlineInputBorder(
-                                      borderSide: const BorderSide(color: Colors.grey, width: 0.0),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(color: Colors.grey, width: 0.0),
                                     ),
-                                    border: const OutlineInputBorder()
+                                    border: OutlineInputBorder()
                                 ),
                               ),
                             ),
@@ -75,10 +74,10 @@ class SignupScreen extends StatelessWidget {
                               child: TextFormField(
                                 decoration: const InputDecoration(
                                     hintText: 'Enter your email',
-                                    enabledBorder: const OutlineInputBorder(
-                                      borderSide: const BorderSide(color: Colors.grey, width: 0.0),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(color: Colors.grey, width: 0.0),
                                     ),
-                                    border: const OutlineInputBorder()
+                                    border: OutlineInputBorder()
                                 ),
                               ),
                             ),
@@ -177,7 +176,6 @@ class SignupScreen extends StatelessWidget {
         ),
       ),
     );
-    throw UnimplementedError();
   }
 
 }
